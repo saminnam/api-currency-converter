@@ -1,0 +1,78 @@
+.content-box {
+    padding: 15px;
+    text-align: center;
+}
+
+.box {
+    margin: 20% auto 0 auto;
+    /* background-color: rgb(111, 233, 123); */
+    background-image: url("https://png.pngtree.com/background/20230616/original/pngtree-blockchain-s-new-virtual-currency-exchange-a-3d-rendered-stack-of-picture-image_3649192.jpg");
+    background-size: cover;
+    width: 450px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: rgb(216, 63, 63);
+}
+
+.currency {
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #cea08a;
+    border: 1px solid #F6E8E8;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.left-box {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.right-box {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.left-box > input{
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccdf38;
+    background-color: #ce86d2;
+}
+
+.right-box > input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #D9C9C7;
+    background-color: #D9C9C7;
+}
+
+#currency {
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.btn {
+    padding: 10px;
+}
+
+.primary-btn {
+    cursor: pointer;
+    padding: 15px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #D83F2F;
+    font-weight: bold;
+    background-color: #D83F2F;
+}
